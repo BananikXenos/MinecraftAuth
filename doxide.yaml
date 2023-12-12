@@ -1,0 +1,8 @@
+title: MinecraftAuth
+description: MinecraftAuth is a library for authenticating with Mojang's authentication servers.
+files:
+  - "*.hpp"
+  - "**/*.hpp"
+  - "*.h"
+  - "**/*.h"
+

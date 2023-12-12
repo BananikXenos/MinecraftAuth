@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MinecraftAuth"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\json-src\;CMake Files\cmake-build-debug\_deps\json-src\cmake\;CMake Files\cmake-build-debug\_deps\httplib-src\;CMake Files\cmake-build-debug\_deps\httplib-src\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MinecraftAuth">
+				<Option output="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/libMinecraftAuth.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPPHTTPLIB_BROTLI_SUPPORT"/>
+					<Add option="-DCPPHTTPLIB_ZLIB_SUPPORT"/>
+					<Add option="-DCPPHTTPLIB_OPENSSL_SUPPORT"/>
+					<Add directory="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/json-src/include"/>
+					<Add directory="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/httplib-src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinecraftAuth"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MinecraftAuth/fast">
+				<Option output="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/libMinecraftAuth.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPPHTTPLIB_BROTLI_SUPPORT"/>
+					<Add option="-DCPPHTTPLIB_ZLIB_SUPPORT"/>
+					<Add option="-DCPPHTTPLIB_OPENSSL_SUPPORT"/>
+					<Add directory="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/json-src/include"/>
+					<Add directory="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/httplib-src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinecraftAuth/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Account.cpp">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Account.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/MinecraftProfile.cpp">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/MinecraftProfile.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/AuthenticationResponse.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/DeviceAuthorizationResponse.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/MicrosoftApiError.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/MinecraftApiError.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/MinecraftAuthResponse.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/XBLAuthenticationResponse.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/XSTSAuthenticationResponse.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Data/Responses/XboxApiError.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Http/HttpEngine.cpp">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Http/HttpEngine.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Http/HttpResponse.cpp">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Http/HttpResponse.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Http/cpp-httplib/HttpLibHttpEngine.cpp">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Http/cpp-httplib/HttpLibHttpEngine.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/MicrosoftOAuth.cpp">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/MicrosoftOAuth.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/MinecraftAuth/Utils/StringUtils.h">
+			<Option target="MinecraftAuth"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/json-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/json-src/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/json-src/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/httplib-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\httplib-src\"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/httplib-src/httplibConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\httplib-src\"/>
+		</Unit>
+		<Unit filename="/home/synse/CLionProjects/MinecraftAuth/cmake-build-debug/_deps/httplib-src/cmake/FindBrotli.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\httplib-src\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
